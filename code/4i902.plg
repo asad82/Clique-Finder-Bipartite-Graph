@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4i902 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/4i902.res" /i ".\Release" /d "NDEBUG" "L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP61D2.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/4i902.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902Doc.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\Chart.cpp"
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP61D2.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP61D3.TMP" with contents
+[
+/nologo /MD /W3 /GX /Zi /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_AFXDLL" /D "_MBCS" /Fp"Release/4i902.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /c 
+"L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP61D3.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP61D4.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/4i902.pdb" /debug /machine:IX86 /out:"Release/4i902.exe" /pdbtype:sept /opt:ref /opt:icf 
+".\Release\4i902.obj"
+".\Release\4i902Doc.obj"
+".\Release\4i902View.obj"
+".\Release\Chart.obj"
+".\Release\MainFrm.obj"
+".\Release\stdafx.obj"
+".\Release\4i902.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP61D4.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+F:\PROGRAM FILES\VC98\MFC\INCLUDE\afxv_w32.h(119) : warning C4005: '_WIN32_WINDOWS' : macro redefinition
+        L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\stdafx.h(22) : see previous definition of '_WIN32_WINDOWS'
+Compiling...
+4i902.cpp
+4i902Doc.cpp
+4i902View.cpp
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(136) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(331) : warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(760) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(900) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(900) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(903) : warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(960) : warning C4244: '=' : conversion from 'long double' to 'int', possible loss of data
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(1250) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Chart.cpp
+MainFrm.cpp
+Generating Code...
+L:\Fast\Semester1\Applied Algorithm\Assignments\Hw#03\HW#03( more updated)\4i902\4i902View.cpp(485) : warning C4715: 'Ci902View::Factorial' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+4i902.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>
